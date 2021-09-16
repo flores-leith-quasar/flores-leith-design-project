@@ -87,3 +87,7 @@ body{
 .border-color{
     border: #F0F0F0 solid 20em;
 }
+.img-size{
+    height:200px;
+    width: 300px;
+}
