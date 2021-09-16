@@ -1,6 +1,10 @@
 body{
     background-color: #E6E6E6
 }
+.navbar-position{
+    position: relative;
+    top: 3em;
+}
 
 .abel{
     font-family: 'Abel', sans-serif;
