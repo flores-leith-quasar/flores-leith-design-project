@@ -10,12 +10,15 @@ body{
     font-family: 'Anton', sans-serif;
 }
 .bg-design{
+    display:flex;
     background-color: #E6563B;
     color:white;
     border: 5px solid white;
     width: 105px;
     height: 105px;
     border-radius: 100%;
+    align-items: center;
+    justify-content: center;
 
 
 
@@ -23,27 +26,60 @@ body{
 
 }
 .bg-develop{
+    display:flex;
     background-color: #DEA03D;
     color: white;
     border: 5px solid white;
     width: 105px;
     height: 105px;
     border-radius: 100%;
+    align-items:center;
+    justify-content: center;
 }
 .bg-support{
+    display:flex;
     background-color: #7CB06C;
     color:white;
     border: 5px solid white;
     width: 105px;
     height: 105px;
     border-radius: 100%;
+    align-items: center;
+    justify-content: center;
+
 }
 .bg-host{
+    display:flex;
     background-color: #00ABA9;
     color:white;
     border: 5px solid white;
     width: 105px;
     height: 105px;
     border-radius: 100%;
+    align-items:center;
+    justify-content: center;
 
+}
+.D{
+    background-color: #E6563B;
+
+
+}
+.D2{
+    background-color: #DEA03D;
+
+
+}
+.S{
+    background-color: #7CB06C;
+
+
+}
+.H{
+    background-color: #00ABA9;
+
+
+}
+.border-color{
+    border: #F0F0F0 solid 20em;
 }
