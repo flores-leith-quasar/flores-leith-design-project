@@ -85,9 +85,10 @@ body{
 
 }
 .border-color{
-    border: #F0F0F0 solid 20em;
+    border: #F0F0F0 solid 10px;
+    border-radius: 30%;
 }
-.img-size{
-    height:200px;
-    width: 300px;
-}
+/*.img-size{*/
+/*    height:auto;*/
+/*    width: auto;*/
+/*}*/
