@@ -13,8 +13,12 @@
     <link href="https://fonts.googleapis.com/css2?family=Abel&family=Anton&display=swap" rel="stylesheet">
 </head>
 <body>
-<div class="nav justify-content-center bg-white my-4 align-content-center" style="height: 60px;">
+<div class="navbar justify-content-center my-4 bg-white align-content-center" style="height: 60px;">
+    <div class="nav-link abel d-none d-sm-block">SERVICES</div>
+    <div class="nav-link abel d-none d-sm-block">WORK</div>
     <img src="assets/logo.png" style="height: 105px; width:105px;">
+    <div class="nav-link abel d-none d-sm-block">BLOG</div>
+    <div class="nav-link abel d-none d-sm-block">CONTACT</div>
 </div>
 <div class="container text-center">
     <div class="row">
@@ -23,23 +27,24 @@
             </div>
 
             <div class="col-3">
-                <div class="text-center abel">SERVICES</div>
+                <div class="text-center abel d-sm-none">SERVICES</div>
 
             </div>
             <div class="col-3">
-                <div class="text-center abel">WORK</div>
+                <div class="text-center abel d-sm-none">WORK</div>
             </div>
             <div class="col-3">
-                <div class="text-center abel">BLOG</div>
+                <div class="text-center abel d-sm-none">BLOG</div>
             </div>
             <div class="col-3">
-                <div class="text-center abel">CONTACT</div>
+                <div class="text-center abel d-sm-none">CONTACT</div>
 
         </div>
         <div class="container">
             <div class="row">
                 <div class="col-12">
-                    <h1 class="anton my-4">VISUAL DESIGN & WEB DEVELOPMENT</h1>
+<!--                    <h1 class="anton my-4">VISUAL DESIGN & WEB DEVELOPMENT</h1>  -->
+                    <span>VISUAL DESIGN & WEB DEVELOPMENT</span>
 
                 </div>
                 <div class="col-12">
@@ -47,32 +52,81 @@
                 </div>
             </div>
         </div>
-        <div class="container d-flex justify-content-center">
-                <div class="row col-12 my-4 flex-wrap justify-content-center">
-                    <div class="bg-design mx-2" style="height: 105px; width:105px;">DESIGN</div>
-                    <div class="bg-support mx-2" style="height: 105px; width:105px;">SUPPORT</div>
-                    <div class="bg-develop mx-2" style="height: 105px; width:105px;">DEVELOP</div>
-                    <div class="bg-host mx-2" style="height: 105px; width:105px;">HOST</div>
+        <div class="container justify-content-center">
+                <div class="row justify-content-center">
+                    <div class="bg-design mx-2">DESIGN</div>
+                    <div class="bg-support mx-2">SUPPORT</div>
+                    <div class="w-100 d-sm-none"></div>
+                    <div class="bg-develop mx-2">DEVELOP</div>
+                    <div class="bg-host mx-2">HOST</div>
                 </div>
         </div>
-        <div class="container">
-                <div class="row">
-                    <div class="col-12 my-5">SELECTED WORK</div>
+             <hr style="height:10px; width:50%; color:darkgrey;" class="d-none d-sm-block">
+        <div class="container d-flex justify-content-around">
+                <div class="row justify-content-center">
+                    <div class="col-12 mt-1 mb-5">SELECTED WORK</div>
                <div>
-                <div class="col-12">
-                    <img src="assets/images/apple-ipad.jpg" class="img-fluid border border-color rounded">
-                    <div class="d-flex">
-                        <div class="mr-auto">FEATURED PROJECT</div>
-                        <div class="justify-content-between">
-                            <div class="D badge rounded-circle" style="width:18px; height:18px;">D</div>
-                            <div class="D2 badge rounded-circle" style="width:18px; height:18px;">D</div>
-                            <div class="S badge rounded-circle" style="width:18px; height:18px;">S</div>
-                            <div class="H badge rounded-circle" style="width:18px; height:18px;">H</div>
-                        </div>
-                    </div>
-                </div>
+              <div class="container d-flex">
+                  <div class="row justify-content-center">
+                      <div class="row">
+                          <div class="col-12 col-sm-6">
+                              <img src="assets/images/apple-ipad.jpg" class="img-fluid border-color rounded img-size">
+                              <div class="d-flex">
+                                  <div class="mr-auto">FEATURED PROJECT</div>
+                                  <div class="justify-content-between">
+                                      <div class="D badge rounded-circle">D</div>
+                                      <div class="D2 badge rounded-circle">D</div>
+                                      <div class="S badge rounded-circle">S</div>
+                                      <div class="H badge rounded-circle">H</div>
+                                  </div>
+                              </div>
+                          </div>
+                          <div class="col-6 d-none d-sm-block">
+                              <img src="assets/images/macbook.jpg" class="img-fluid border-color rounded img-size">
+                              <div class="d-flex">
+                                  <div class="mr-auto">FEATURED PROJECT</div>
+                                  <div class="justify-content-between">
+                                      <div class="D badge rounded-circle">D</div>
+                                      <div class="D2 badge rounded-circle">D</div>
+                                      <div class="S badge rounded-circle">S</div>
+                                      <div class="H badge rounded-circle">H</div>
+                                  </div>
+                              </div>
+                          </div>
+                      </div>
+                      <div class="row">
+                          <div class="col-6 d-none d-sm-block">
+                              <img src="assets/images/man.jpg" class="img-fluid border-color rounded img-size">
+                              <div class="d-flex">
+                                  <div class="mr-auto">FEATURED PROJECT</div>
+                                  <div class="justify-content-between">
+                                      <div class="D badge rounded-circle">D</div>
+                                      <div class="D2 badge rounded-circle">D</div>
+                                      <div class="S badge rounded-circle">S</div>
+                                      <div class="H badge rounded-circle">H</div>
+                                  </div>
+                              </div>
+                          </div>
+                          <div class="col-6 d-none d-sm-block">
+                              <img src="assets/images/security.jpg" class="img-fluid border-color rounded img-size">
+                              <div class="d-flex">
+                                  <div class="mr-auto">FEATURED PROJECT</div>
+                                  <div class="justify-content-between">
+                                      <div class="D badge rounded-circle">D</div>
+                                      <div class="D2 badge rounded-circle">D</div>
+                                      <div class="S badge rounded-circle">S</div>
+                                      <div class="H badge rounded-circle">H</div>
+                                  </div>
+                              </div>
+                          </div>
+                      </div>
+                  </div>
+              </div>
 
-                </div>
+
+
+
+               </div>
             </div>
         </div>
     </div>

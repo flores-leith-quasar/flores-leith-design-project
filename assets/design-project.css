@@ -1,6 +1,10 @@
 body{
     background-color: #E6E6E6
 }
+.navbar-position{
+    position: relative;
+    top: 3em;
+}
 
 .abel{
     font-family: 'Abel', sans-serif;
@@ -81,5 +85,10 @@ body{
 
 }
 .border-color{
-    border: #F0F0F0 solid 20em;
+    border: #F0F0F0 solid 10px;
+    border-radius: 30%;
 }
+/*.img-size{*/
+/*    height:auto;*/
+/*    width: auto;*/
+/*}*/
