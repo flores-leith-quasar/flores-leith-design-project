@@ -1,14 +1,25 @@
 body{
     background-color: #E6E6E6
 }
+@media (min-width: 576px) and (max-width: 767px) {
+    .sm-font{
+        font-size: .5em;
+    }
+}
+@media (min-width: 768px) and (max-width: 991px) {
+    .md-font{
+        font-size: .5em;
+    }
+    .md-font-2{
+        font-size: .70em;
+    }
+}
 .navbar-position{
     position: relative;
     top: 3em;
 }
-
 .abel{
     font-family: 'Abel', sans-serif;
-
 }
 .anton{
     font-family: 'Anton', sans-serif;
@@ -23,11 +34,6 @@ body{
     border-radius: 100%;
     align-items: center;
     justify-content: center;
-
-
-
-
-
 }
 .bg-develop{
     display:flex;
@@ -50,7 +56,6 @@ body{
     border-radius: 100%;
     align-items: center;
     justify-content: center;
-
 }
 .bg-host{
     display:flex;
@@ -62,36 +67,23 @@ body{
     border-radius: 100%;
     align-items:center;
     justify-content: center;
-
 }
 .D{
     background-color: #E6563B;
-
-
 }
 .D2{
     background-color: #DEA03D;
-
-
 }
 .S{
     background-color: #7CB06C;
-
-
 }
 .H{
     background-color: #00ABA9;
-
-
 }
 .border-color{
     border: #F0F0F0 solid 10px;
     border-radius: 30%;
 }
-/*.img-size{*/
-/*    height:auto;*/
-/*    width: auto;*/
-/*}*/
 .img-thumbnail{
     height: 50px;
     width: 50px;
